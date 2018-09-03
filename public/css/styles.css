@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  color: #1a1a1a;
+  font-family: 'Open Sans', sans-serif;
+  max-width: 80%;
+  margin: 5em auto;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+h1,
+h2 {
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+ol,
+ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 10px;
+}
+
+.search input,
+.addUser input {
+  padding: 10px 30px;
+  padding-left: 10px;
+  background-image: none !important;
+  min-width: 250px;
+}
+
+button.nice {
+  background-color: #0080ff;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-color: #0080ff;
+  border-radius: 2.5px;
+  padding: 10px 0;
+  width: 100px;
+}
+
+#__lpform_firstname {
+  display: none;
+}
+
+.nav {
+  padding-top: 20px;
+}
+
+.nav a {
+  display: block;
+  padding: 5px 0;
+}

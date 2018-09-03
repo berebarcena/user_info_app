@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="/css/styles.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+</head>
+
+<body>
+  <div>
+
+    <% if (user.fullname ) { %>
+      <p>You search for:
+      </p>
+      <h1>
+        <%= user.fullname %>
+      </h1>
+      <h2>
+        <%= user.email %>
+      </h2>
+      <% } else { %>
+        <h1>Sorry, no match for your search :(</h1>
+        <% } %>
+
+          <div class="nav">
+            <a href="users">Back to all users</a>
+            <a href="add-user">Add a new user</a>
+            <a href="search">Search Users</a>
+          </div>
+  </div>
+
+</body>
+
+</html>
