@@ -13,13 +13,16 @@
     <input type="text" placeholder="Last name" name="lastname">
     <input type="text" placeholder="Email" name="email">
     <button type="submit" class="nice">Send</button>
+    <% if (error) { %>
+      <p class="red">
+        <%= error %>
+      </p>
+      <% } %>
   </form>
   <div class="nav">
     <a href="search">Search Users</a>
     <a href="users">Back to all users</a>
   </div>
 </body>
-
-
 
 </html>

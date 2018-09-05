@@ -50,10 +50,6 @@ button.nice {
   width: 100px;
 }
 
-#__lpform_firstname {
-  display: none;
-}
-
 .nav {
   padding-top: 20px;
 }
@@ -61,4 +57,8 @@ button.nice {
 .nav a {
   display: block;
   padding: 5px 0;
+}
+
+.red {
+  color: tomato;
 }
