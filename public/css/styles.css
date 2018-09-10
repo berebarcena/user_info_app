@@ -52,6 +52,7 @@ button.nice {
 
 .nav {
   padding-top: 20px;
+  max-width: 150px;
 }
 
 .nav a {
@@ -61,4 +62,9 @@ button.nice {
 
 .red {
   color: tomato;
+}
+
+.suggestions {
+  position: relative;
+  z-index: 9;
 }
