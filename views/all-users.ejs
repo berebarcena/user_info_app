@@ -3,6 +3,7 @@
 
 <head>
   <link href="/css/styles.css" rel="stylesheet" type="text/css">
+
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
 </head>
 
@@ -11,26 +12,28 @@
   <ul>
     <% for(let i =0; i < users.length;i++){
       %>
-      <li>
-        <h2>User #
-          <%= [i+1] %>
-        </h2>
-        <p>
-          Name:
-          <%= users[i].firstname %>
-            <%= users[i].lastname %>
-        </p>
-        <p>
-          Email:
-          <%= users[i].email %>
-        </p>
-      </li>
-      <% } %>
+    <li>
+      <h2>User #
+        <%= [i+1] %>
+      </h2>
+      <p>
+        Name:
+        <%= users[i].firstname %>
+        <%= users[i].lastname %>
+      </p>
+      <p>
+        Email:
+        <%= users[i].email %>
+      </p>
+    </li>
+    <% } %>
   </ul>
   <div class="nav">
     <a href="search">Search Users</a>
     <a href="add-user">Add a new user</a>
   </div>
+
+
 </body>
 
 </html>

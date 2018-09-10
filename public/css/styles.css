@@ -36,7 +36,8 @@ ul {
   padding: 10px 30px;
   padding-left: 10px;
   background-image: none !important;
-  min-width: 250px;
+  width: 250px;
+  border: 1px solid #aeaeae;
 }
 
 button.nice {
@@ -52,6 +53,7 @@ button.nice {
 
 .nav {
   padding-top: 20px;
+  max-width: 150px;
 }
 
 .nav a {
@@ -61,4 +63,16 @@ button.nice {
 
 .red {
   color: tomato;
+}
+
+.suggestions {
+  width: 250px;
+  border: 0.5px solid #aeaeae;
+  position: relative;
+  top: -1px;
+}
+
+.suggestions li {
+  padding: 8px 0;
+  cursor: default;
 }
