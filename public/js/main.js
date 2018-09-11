@@ -5,8 +5,8 @@ $(function() {
       .toLowerCase();
     $('.suggestions').empty();
     if (searchQuery !== '') {
-      $.get('/api/users/all', data => {
-        const filteredData = data.filter(item => {
+      $.get('/api/users/all', response => {
+        const filteredData = response.filter(item => {
           const isMatch =
             item.firstname.toLowerCase().includes(searchQuery) ||
             item.lastname.toLowerCase().includes(searchQuery);
